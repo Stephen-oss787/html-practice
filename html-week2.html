@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML Table and Registration Form</title>
+  </head>
+  <body>
+    <!-- Page Title -->
+    <h1>Student Information Page</h1>
+
+    <!-- Description Paragraph -->
+    <p>
+      This page demonstrates a basic HTML structure containing a table and a
+      registration form.
+    </p>
+
+    <!-- Table Title -->
+    <h2>Sample 3x5 Table</h2>
+
+    <!-- Table -->
+    <table border="1" cellpadding="10">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>25</td>
+        <td>Ghana</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>22</td>
+        <td>Nigeria</td>
+      </tr>
+      <tr>
+        <td>Alex</td>
+        <td>30</td>
+        <td>Kenya</td>
+      </tr>
+      <tr>
+        <td>Sophia</td>
+        <td>28</td>
+        <td>South Africa</td>
+      </tr>
+    </table>
+
+    <!-- Form Title -->
+    <h2>Registration Form</h2>
+
+    <!-- Registration Form -->
+    <form>
+      <label for="firstname">First Name:</label><br />
+      <input type="text" id="firstname" name="firstname" /><br /><br />
+
+      <label for="lastname">Last Name:</label><br />
+      <input type="text" id="lastname" name="lastname" /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" /><br /><br />
+
+      <label for="phone">Phone:</label><br />
+      <input type="tel" id="phone" name="phone" /><br /><br />
+
+      <label>Gender:</label><br />
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label><br />
+
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br />
+
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label><br /><br />
+
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
